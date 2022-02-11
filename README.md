@@ -1,5 +1,6 @@
 # ProbeZT_3
 ProbeZT code with extra functionality for probe coupling, density matrix calculations and intersite tunnelling
+Can be ran with parallel toolbox
 Adapted from:
 Roman Korol, Michael Kilgour, Dvira Segal,
 ProbeZT: Simulation of transport coefficients of molecular electronic junctions under environmental effects using Büttiker’s probes,
