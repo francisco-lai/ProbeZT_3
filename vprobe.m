@@ -14,6 +14,7 @@ if isnan(TRpp) % if probes' coupling is zero
     fl=1./(exp(b.*(EE-muL))+1); %Fermi Dirac functions at the L and R leads
     fr=1./(exp(b.*(EE-muR))+1);
     Il=sum(TRlr.*(fl-fr).*de); Ir=-Il; %current when coupling to probes is zero
+    MU = 0
      
 else % if probes are on
     Fpl=zeros(1,Ln); Fpr=zeros(1,Ln); Fpp=zeros(Ln); MM=zeros(Ln); 
